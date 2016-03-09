@@ -10,6 +10,7 @@ public class TheMotivator {
 			System.out.println("That's good ");
 		else
 			System.out.println("Well, what can I say?");
+			Sysout.out.println("here is another thing");
 	}
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
