@@ -1,6 +1,12 @@
 package gitMerging;
 
+import java.util.ArrayList;
+
 public class TheMotivator {
+	public void randomprinting() {
+		ArrayList[] hello = new String ArrayList[10];
+		hello[0] = "hi";
+	}
 	public void feedback(int score) {
 		if (score == 100)
 			System.out.println("You're awesome");
