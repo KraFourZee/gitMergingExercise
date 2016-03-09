@@ -13,6 +13,7 @@ public class TheMotivator {
 	}
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
-		tm.feedback(60);
+		int random = (int )(Math.random() * 100 + 1);
+		tm.feedback(random);
 	}
 }
