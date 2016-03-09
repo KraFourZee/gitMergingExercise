@@ -3,9 +3,15 @@ package gitMerging;
 import java.util.ArrayList;
 
 public class TheMotivator {
+	ArrayList<String> hello = new ArrayList<String>();
+	
 	public void randomprinting() {
-		ArrayList[] hello = new String ArrayList[10];
-		hello[0] = "hi";
+		hello.add("hello");
+		hello.add("probably not above 60");
+		hello.add("below 60 still");
+		hello.add("hi");
+		hello.add("how are you");
+		
 	}
 	public void feedback(int score) {
 		if (score == 100)
@@ -16,6 +22,10 @@ public class TheMotivator {
 			System.out.println("That's good ");
 		else
 			System.out.println("Well, what can I say?");
+			randomprinting();
+			for (String hi : hello) {
+				System.out.println(hi);
+			}
 	}
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
